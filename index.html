@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/img/css/style.css">
+    <link rel="stylesheet" href="css/bootstrrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+        <div class="form-image">
+            <img src="assets/img/undraw_access_account_re_8spm (1).svg">
+        </div>
+        <div class="form">
+        <form action="#">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Cadastre-se</h1>
+                </div>
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="firstname">Primeiro nome</label>
+                    <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="lastname">Sobrenome</label>
+                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                </div>
+
+                
+
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="firstname" placeholder="Digite seu email" required>
+                </div>
+
+               
+
+                <div class="input-box">
+                    <label for="number">Celular</label>
+                    <input id="number" type="number" name="number" placeholder="(xx) xxxx-xxxx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="age">Idade</label>
+                    <input id="age" type="date" name="age" placeholder="Informe sua Idade" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">Senha</label>
+                    <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                </div>
+
+               
+            </div>
+
+            <div class="gender-inputs">
+                <div class="gender-title">
+                    <h6>Gênero</h6>
+                </div>
+
+                <div class="gender-group">
+                    <label for="categoria"></label>
+                   
+                    <select name="" id="categoria" class="form-control">
+
+                        <option value="Feminino">Feminino</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="outros">Outros</option>
+                        <option value="prefiroNãoDizer">Prefiro não dizer</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="continue-button">
+                <button id="btn"><a href="#">Continuar</a></button>
+            </div>
+        </form>
+    </div>
+    
+
+    
+<div id="resultado">
+                    
+</div>
+</div>
+
+</div>
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
